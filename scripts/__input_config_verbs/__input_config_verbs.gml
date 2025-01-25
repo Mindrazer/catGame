@@ -48,7 +48,7 @@ function __input_config_verbs()
             aim_down:  input_binding_gamepad_axis(gp_axisrv, false),
             aim_left:  input_binding_gamepad_axis(gp_axisrh, true),
             aim_right: input_binding_gamepad_axis(gp_axisrh, false),
-            shoot:     [input_binding_gamepad_button(gp_shoulderlb), input_binding_gamepad_button(gp_shoulderrb)],
+            shoot:     input_binding_gamepad_button(gp_shoulderrb),
             
             pause: input_binding_gamepad_button(gp_start),
         },

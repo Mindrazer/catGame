@@ -3,8 +3,24 @@
 //}
 
 if (!oCat.bubble){
-	sprite_index = sprBank[oCat.sprFacingDir]
-	bubbleEnd = false
+	
+	if (attackingImageIndex >= 1) {
+		// attacking
+		sprite_index = swordSprites[sprFacingDir]
+		image_index = attackingImageIndex
+		attackingImageIndex += 1
+		if (attackingImageIndex >= attackingSprites) {
+			attackingImageIndex = 0
+		}
+	} else {
+		// Not attacking, not bubbling
+		if (!following) {
+			sprite_index = defaultSprites[sprFacingDir]
+		} else {
+			sprite_index = defaultSprites[oCat.sprFacingDir]
+		}
+		bubbleEnd = false
+	}
 } else {
 
 	sprite_index = bubbleSprites[oCat.sprFacingDir]
