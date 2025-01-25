@@ -53,6 +53,20 @@ if place_meeting(x + xspd, y+yspd, oPlatform) {
 
 }
 
-/// Move the 
+/// Move the cat
 x += xspd
 y += yspd
+
+
+// Determine if the cat is standing, walking, or jumping
+if (!grounded) {
+	// Not on the ground, using jumping sprite bank
+	sprBank = jumpingSprites
+} else if (x != xprevious) {
+	// Whow knew gamemaker just kept track of xprevious
+	sprBank = walkingSprites
+} else {
+
+	sprBank = standingSprites
+	
+}

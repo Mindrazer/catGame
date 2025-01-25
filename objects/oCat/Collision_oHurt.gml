@@ -1,9 +1,11 @@
 
+// If not already invulnerable. Else we do nothing
 
-
-// Lose a life
-lifeCounter -= 1
-// Set vuln cooldown
-vulnCoolDown = 180
+if (vulnCoolDown <= 0) {
+	// Lose a life
+	lifeCounter -= 1
+	// Set vuln cooldown
+	vulnCoolDown = 180
+}
 
 
