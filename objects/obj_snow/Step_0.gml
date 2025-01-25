@@ -1,10 +1,8 @@
-// Emit snowflakes at the top of the screen
-part_particles_create(particle_system, random(room_width), 0, snow_particle, 10);
-// Check for collision with OPlatform
-if (place_meeting(x, y + 1, oPlatform)) {
-    // Change gravity to stop falling particles upon collision
-    part_type_gravity(snow_particle, 0, 270);  // No gravity (particles stop falling)
-} else {
-    // Apply normal gravity if no collision
-    part_type_gravity(snow_particle, 0.1, 270);  // Light gravity
+// Emit snowflakes randomly
+var spawn_x = random_range(-50, room_width + 50);
+var spawn_y = -10; // Start above the room
+
+// Only create particles if no collision with the platform
+if (!place_meeting(spawn_x, spawn_y + 1, oPlatform)) {
+    part_particles_create(particle_system, spawn_x, spawn_y, snow_particle, 10);
 }
