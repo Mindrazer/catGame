@@ -15,7 +15,7 @@ var _vx = vx
 var _vy = vy
 
 if (!surface_exists(shad_surf)){
-	shad_surf = surface_create(240, 135);
+	shad_surf = surface_create(245, 135);
 }
 
 matrix_set(matrix_world,matrix_build(-vx,-vy,0,0,0,0,1,1,1))
