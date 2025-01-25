@@ -1,2 +1,2 @@
-x = oCat.x
-y = oCat.y
+x = mouse_x
+y = mouse_y
