@@ -22,4 +22,7 @@ bubbleJumpSpd = -3;
 grav = .25
 bubbleGrav = 0.15;
 
+// Create head
+instance_create_layer(x, y, "instances", oHead)
+
 //hold for higher jump??
