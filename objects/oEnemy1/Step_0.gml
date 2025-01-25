@@ -33,5 +33,11 @@ if (inFrame){    //prevents enemy from running across the map to get you
 			   } 
 		   }
 		   x = targetX
+		   if (xDir < 0) {
+				sprite_index = sprBank[0]
+		   } else {
+				sprite_index = sprBank[1]
+		   }
     }	
 }
+
