@@ -1,4 +1,4 @@
-if (head.attacking) {
+if (other.attacking) {
 
 	instance_destroy();
 	

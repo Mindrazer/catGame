@@ -1,1 +1,1 @@
-enemySpeed = 1;
+enemySpeed = .5;
