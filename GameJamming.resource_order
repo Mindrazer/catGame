@@ -62,6 +62,8 @@
     {"name":"sprHeadLeft","order":21,"path":"sprites/sprHeadLeft/sprHeadLeft.yy",},
     {"name":"sprHeadRight","order":22,"path":"sprites/sprHeadRight/sprHeadRight.yy",},
     {"name":"sprHurt","order":5,"path":"sprites/sprHurt/sprHurt.yy",},
+    {"name":"sprHurtLeft","order":31,"path":"sprites/sprHurtLeft/sprHurtLeft.yy",},
+    {"name":"sprHurtRight","order":32,"path":"sprites/sprHurtRight/sprHurtRight.yy",},
     {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"sprLeftDying","order":18,"path":"sprites/sprLeftDying/sprLeftDying.yy",},
     {"name":"sprLeftJumping","order":16,"path":"sprites/sprLeftJumping/sprLeftJumping.yy",},
