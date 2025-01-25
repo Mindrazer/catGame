@@ -1,4 +1,9 @@
+lifeCounter = 9
+vulnCoolDown = 0;
+
+
 bubble = false
+bubbleJumpCounter = 3;
 
 
 xspd = 0;

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oPlatform",
+  "%Name":"oHurt",
   "eventList":[],
   "managed":true,
-  "name":"oPlatform",
+  "name":"oHurt",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprTempPlatform",
-    "path":"sprites/sprTempPlatform/sprTempPlatform.yy",
+    "name":"Sprite5",
+    "path":"sprites/Sprite5/Sprite5.yy",
   },
   "spriteMaskId":null,
   "visible":true,
