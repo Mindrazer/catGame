@@ -1,6 +1,8 @@
 sprFacingDir = 1
 standingSprites = [sprLeftStanding, sprRightStanding]
-sprBank = standingSprites
+walkingSprites = [sprLeftStanding, sprRightStanding]
+jumpingSprites =  [sprLeftStanding, sprRightStanding]
+sprBank = standingSprites // Start out standing
 lifeCounter = 9
 vulnCoolDown = 0;
 
