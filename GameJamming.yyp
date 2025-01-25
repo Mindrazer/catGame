@@ -437,6 +437,8 @@
     {"id":{"name":"spr_tri_light_wall_1","path":"sprites/spr_tri_light_wall_1/spr_tri_light_wall_1.yy",},},
     {"id":{"name":"spr_tri_light_wall_2","path":"sprites/spr_tri_light_wall_2/spr_tri_light_wall_2.yy",},},
     {"id":{"name":"sprHead","path":"sprites/sprHead/sprHead.yy",},},
+    {"id":{"name":"sprHeadLeft","path":"sprites/sprHeadLeft/sprHeadLeft.yy",},},
+    {"id":{"name":"sprHeadRight","path":"sprites/sprHeadRight/sprHeadRight.yy",},},
     {"id":{"name":"sprHurt","path":"sprites/sprHurt/sprHurt.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"sprLeftDying","path":"sprites/sprLeftDying/sprLeftDying.yy",},},

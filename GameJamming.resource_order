@@ -39,6 +39,8 @@
     {"name":"spr_tri_light_wall_1","order":12,"path":"sprites/spr_tri_light_wall_1/spr_tri_light_wall_1.yy",},
     {"name":"spr_tri_light_wall_2","order":13,"path":"sprites/spr_tri_light_wall_2/spr_tri_light_wall_2.yy",},
     {"name":"sprHead","order":20,"path":"sprites/sprHead/sprHead.yy",},
+    {"name":"sprHeadLeft","order":21,"path":"sprites/sprHeadLeft/sprHeadLeft.yy",},
+    {"name":"sprHeadRight","order":22,"path":"sprites/sprHeadRight/sprHeadRight.yy",},
     {"name":"sprHurt","order":5,"path":"sprites/sprHurt/sprHurt.yy",},
     {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"sprLeftDying","order":18,"path":"sprites/sprLeftDying/sprLeftDying.yy",},

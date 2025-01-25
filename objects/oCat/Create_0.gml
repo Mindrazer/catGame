@@ -1,7 +1,7 @@
 sprFacingDir = 1
 standingSprites = [sprLeftStanding, sprRightStanding]
 walkingSprites = [sprLeftWalking, sprRightWalking]
-jumpingSprites =  [sprLeftStanding, sprRightStanding]
+jumpingSprites =  [sprLeftJumping, sprRightJumping]
 bubbleSprites = [sprTempBubble, sprTempBubble]
 hurtSprites = [sprHurt, sprHurt]
 sprBank = standingSprites // Start out standing
