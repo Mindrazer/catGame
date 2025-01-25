@@ -6,6 +6,8 @@ if (vulnCoolDown <= 0) {
 	lifeCounter -= 1
 	// Set vuln cooldown
 	vulnCoolDown = 180
+	// Pop the players bubble
+	bubble = false;
 }
 
 
