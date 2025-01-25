@@ -38,6 +38,8 @@
     {"name":"spr_tileset","order":7,"path":"sprites/spr_tileset/spr_tileset.yy",},
     {"name":"spr_tri_light_wall_1","order":12,"path":"sprites/spr_tri_light_wall_1/spr_tri_light_wall_1.yy",},
     {"name":"spr_tri_light_wall_2","order":13,"path":"sprites/spr_tri_light_wall_2/spr_tri_light_wall_2.yy",},
+    {"name":"sprBubbleLeft","order":23,"path":"sprites/sprBubbleLeft/sprBubbleLeft.yy",},
+    {"name":"sprBubbleRight","order":24,"path":"sprites/sprBubbleRight/sprBubbleRight.yy",},
     {"name":"sprHead","order":20,"path":"sprites/sprHead/sprHead.yy",},
     {"name":"sprHeadLeft","order":21,"path":"sprites/sprHeadLeft/sprHeadLeft.yy",},
     {"name":"sprHeadRight","order":22,"path":"sprites/sprHeadRight/sprHeadRight.yy",},
