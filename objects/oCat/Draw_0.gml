@@ -1,8 +1,2 @@
-
-if (vulnCoolDown > 0) {
-	sprite_index = sprHurt
-} else {
-	sprite_index = sprTempCat
-}
-
+sprite_index = sprBank[sprFacingDir]
 draw_self()

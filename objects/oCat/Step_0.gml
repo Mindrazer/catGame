@@ -19,6 +19,15 @@ if (keyboard_check_pressed(vk_up) && grounded) {
 		yspd = jumpSpd
 }
 
+
+// Flip Sprite depending on which way it should face 
+if (keyboard_check(vk_left)) {
+	sprFacingDir = 0
+} else if keyboard_check(vk_right) {
+	sprFacingDir = 1
+}
+
+// handle horizontal collision
 if place_meeting(x+xspd, y, oPlatform) {
 	var _pixelCheck = sign(xspd)
 	
@@ -30,6 +39,8 @@ if place_meeting(x+xspd, y, oPlatform) {
 	
 }
 
+
+// handle vertical collision
 if place_meeting(x + xspd, y+yspd, oPlatform) {
 	
 	var _pixelCheck = sign(yspd);
@@ -42,6 +53,6 @@ if place_meeting(x + xspd, y+yspd, oPlatform) {
 
 }
 
-
+/// Move the 
 x += xspd
 y += yspd

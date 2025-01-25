@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cat",
-    "path":"sprites/spr_cat/spr_cat.yy",
+    "name":"sprLeftStanding",
+    "path":"sprites/sprLeftStanding/sprLeftStanding.yy",
   },
   "spriteMaskId":null,
   "visible":true,

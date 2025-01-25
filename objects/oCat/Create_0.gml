@@ -1,3 +1,6 @@
+sprFacingDir = 1
+standingSprites = [sprLeftStanding, sprRightStanding]
+sprBank = standingSprites
 lifeCounter = 9
 vulnCoolDown = 0;
 
