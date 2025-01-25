@@ -437,6 +437,8 @@
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"spr_tri_light_wall_1","path":"sprites/spr_tri_light_wall_1/spr_tri_light_wall_1.yy",},},
     {"id":{"name":"spr_tri_light_wall_2","path":"sprites/spr_tri_light_wall_2/spr_tri_light_wall_2.yy",},},
+    {"id":{"name":"sprBubbleLeft","path":"sprites/sprBubbleLeft/sprBubbleLeft.yy",},},
+    {"id":{"name":"sprBubbleRight","path":"sprites/sprBubbleRight/sprBubbleRight.yy",},},
     {"id":{"name":"sprHead","path":"sprites/sprHead/sprHead.yy",},},
     {"id":{"name":"sprHeadLeft","path":"sprites/sprHeadLeft/sprHeadLeft.yy",},},
     {"id":{"name":"sprHeadRight","path":"sprites/sprHeadRight/sprHeadRight.yy",},},
