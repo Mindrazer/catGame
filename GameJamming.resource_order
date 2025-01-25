@@ -21,6 +21,7 @@
     {"name":"obj_light_wall","order":3,"path":"objects/obj_light_wall/obj_light_wall.yy",},
     {"name":"obj_lighting_setup","order":2,"path":"objects/obj_lighting_setup/obj_lighting_setup.yy",},
     {"name":"obj_movinglight","order":1,"path":"objects/obj_movinglight/obj_movinglight.yy",},
+    {"name":"obj_snow","order":6,"path":"objects/obj_snow/obj_snow.yy",},
     {"name":"obj_tri_light_wall_1","order":4,"path":"objects/obj_tri_light_wall_1/obj_tri_light_wall_1.yy",},
     {"name":"obj_tri_light_wall_2","order":5,"path":"objects/obj_tri_light_wall_2/obj_tri_light_wall_2.yy",},
     {"name":"oCat","order":1,"path":"objects/oCat/oCat.yy",},
