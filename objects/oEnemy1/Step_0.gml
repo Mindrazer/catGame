@@ -22,9 +22,16 @@ if (inFrame){    //prevents enemy from running across the map to get you
            pointDir=point_direction(x,y,oCat.x,oCat.y);
 		   xDir = sign(lengthdir_x(1, pointDir))
 		   targetX = x + (xDir * enemySpeed)
-		   if (!place_meeting(targetX, y+1, oPlatform)) {
-			targetX = x
-		   }        
-    }
-	x = targetX
+		   
+		   if (xDir = -1) {
+			if (!place_meeting(targetX - sprite_width, y+1, oPlatform)) {
+				targetX = x
+			} 
+		   } else {		   
+			   if (!place_meeting(targetX + sprite_width, y+1, oPlatform)) {
+				targetX = x
+			   } 
+		   }
+		   x = targetX
+    }	
 }
