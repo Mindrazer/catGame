@@ -23,14 +23,24 @@ if (inFrame){    //prevents enemy from running across the map to get you
 		   xDir = sign(lengthdir_x(1, pointDir))
 		   targetX = x + (xDir * enemySpeed)
 		   
-		   if (xDir = -1) {
-			if (!place_meeting(targetX - sprite_width, y+1, oPlatform)) {
-				targetX = x
-			} 
-		   } else {		   
-			   if (!place_meeting(targetX + sprite_width, y+1, oPlatform)) {
-				targetX = x
-			   } 
+		   
+		   // Dont let it walk off huge cliffs. Let it fall down a couple pixels
+		   for (var _i = 1; _i <= 10; _i++) {
+			   if (xDir = -1) {
+					if (!place_meeting(targetX - sprite_width, y+_i, oPlatform)) {
+						targetX = x
+					} else {
+						targetX = x + (xDir * enemySpeed)
+						break;
+					}
+			   } else {		   
+				   if (!place_meeting(targetX + sprite_width, y+_i, oPlatform)) {
+						targetX = x
+				   } else {
+					    targetX = x + (xDir * enemySpeed)
+						break;
+				   }
+			   }
 		   }
 		   x = targetX
 		   if (xDir < 0) {
@@ -38,6 +48,22 @@ if (inFrame){    //prevents enemy from running across the map to get you
 		   } else {
 				sprite_index = sprBank[1]
 		   }
+		   
     }	
 }
 
+// handle vertical movement
+// handle vertical collision
+yspd += grav
+if place_meeting(x, y+yspd, oPlatform) {
+	
+	var _pixelCheck = sign(yspd);
+	while !place_meeting( x, y+_pixelCheck, oPlatform) {
+	
+		y += _pixelCheck
+	
+	}
+	yspd = 0;
+
+}
+y += yspd

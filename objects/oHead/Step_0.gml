@@ -48,7 +48,9 @@ if (!oCat.bubble) {
 	}
 	
 	// Use default sprites and follow cat
-	sprBank = defaultSprites
+	if (!attacking) {
+		sprBank = defaultSprites
+	}
 } else {
 	
 	// bubble
