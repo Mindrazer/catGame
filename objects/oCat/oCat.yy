@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite3",
-    "path":"sprites/Sprite3/Sprite3.yy",
+    "name":"sprTempCat",
+    "path":"sprites/sprTempCat/sprTempCat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
