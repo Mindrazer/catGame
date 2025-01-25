@@ -3,6 +3,7 @@ display_set_gui_maximize();
 application_surface_draw_enable(false);
 
 shade_color = c_white;
+color = c_black
 
 cam = view_camera[0]
 

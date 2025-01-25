@@ -19,6 +19,9 @@ function quad(_vb,_x1,_y1,_x2,_y2){
 vx = camera_get_view_x(view_camera[0])
 vy = camera_get_view_y(view_camera[0])
 
+//vx = (input_check("right")) - (input_check("left"))
+//vy = (input_check("up")) - (input_check("down"))
+//camera_set_view_pos(view_camera[0],vx, vy)
 
 //Construct the vertex buffer with every wall
 //Instead of using the four edges as the walls, we use the diagonals instead (Optimization)
