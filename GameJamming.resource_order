@@ -24,6 +24,8 @@
     {"name":"roomSpire","order":1,"path":"rooms/roomSpire/roomSpire.yy",},
     {"name":"sprHurt","order":5,"path":"sprites/sprHurt/sprHurt.yy",},
     {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"spr_cat","order":6,"path":"sprites/spr_cat/spr_cat.yy",},
+    {"name":"spr_tileset","order":7,"path":"sprites/spr_tileset/spr_tileset.yy",},
     {"name":"sprTempBubble","order":3,"path":"sprites/sprTempBubble/sprTempBubble.yy",},
     {"name":"sprTempCat","order":2,"path":"sprites/sprTempCat/sprTempCat.yy",},
     {"name":"sprTempPlatform","order":1,"path":"sprites/sprTempPlatform/sprTempPlatform.yy",},
