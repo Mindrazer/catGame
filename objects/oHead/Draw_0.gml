@@ -4,13 +4,11 @@
 
 if (!oCat.bubble){
 	
-	if (attackingImageIndex >= 1) {
+	if (attacking) {
 		// attacking
 		sprite_index = swordSprites[sprFacingDir]
-		image_index = attackingImageIndex
-		attackingImageIndex += 1
-		if (attackingImageIndex >= attackingSprites) {
-			attackingImageIndex = 0
+		if (image_index >= attackingSprites - 1) {
+			attacking = false
 		}
 	} else {
 		// Not attacking, not bubbling

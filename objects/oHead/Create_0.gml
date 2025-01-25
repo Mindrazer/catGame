@@ -8,7 +8,8 @@ bubbleEnd = false
 following = true
 sprFacingDir = oCat.sprFacingDir
 attackCoolDown = 180
+followingCoolDown = 0
 
 
 attackingSprites = 12
-attackingImageIndex = 0
+attacking = false
