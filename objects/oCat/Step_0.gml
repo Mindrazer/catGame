@@ -82,7 +82,9 @@ y += yspd
 
 
 // Determine if the cat is standing, walking, or jumping
-if (bubble) {
+if (vulnCoolDown > 0) {
+	sprBank = hurtSprites
+} else if (bubble) {
 	sprBank = bubbleSprites
 } else if (!grounded) {
 	// Not on the ground, using jumping sprite bank
