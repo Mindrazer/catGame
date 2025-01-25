@@ -1,6 +1,4 @@
 // Draw the scaled application surface to fit the screen
-draw_text(oCat.x, oCat.y, "Camera X: " + string(vx));
-draw_text(oCat.x-10, oCat.y-30, "Camera Y: " + string(vy));
 
 //Local variables setup
 var _cam = view_camera[0]
