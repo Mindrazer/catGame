@@ -53,6 +53,8 @@
     {"name":"sprRightJumping","order":17,"path":"sprites/sprRightJumping/sprRightJumping.yy",},
     {"name":"sprRightStanding","order":8,"path":"sprites/sprRightStanding/sprRightStanding.yy",},
     {"name":"sprRightWalking","order":15,"path":"sprites/sprRightWalking/sprRightWalking.yy",},
+    {"name":"sprSwordLeft","order":25,"path":"sprites/sprSwordLeft/sprSwordLeft.yy",},
+    {"name":"sprSwordRight","order":26,"path":"sprites/sprSwordRight/sprSwordRight.yy",},
     {"name":"sprTempBubble","order":3,"path":"sprites/sprTempBubble/sprTempBubble.yy",},
     {"name":"sprTempCat","order":2,"path":"sprites/sprTempCat/sprTempCat.yy",},
     {"name":"sprTempPlatform","order":1,"path":"sprites/sprTempPlatform/sprTempPlatform.yy",},

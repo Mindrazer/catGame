@@ -1,9 +1,9 @@
 spd = 1
-lerpSpd = 0.1
+lerpSpd = 0.15
 defaultSprites = [sprHeadLeft,sprHeadRight]
 sprBank = defaultSprites
 bubbleSprites = [sprBubbleLeft, sprBubbleRight]
-swordSprites = []
+swordSprites = [sprSwordLeft, sprSwordRight]
 bubbleEnd = false
 following = true
 sprFacingDir = oCat.sprFacingDir

@@ -451,6 +451,8 @@
     {"id":{"name":"sprRightJumping","path":"sprites/sprRightJumping/sprRightJumping.yy",},},
     {"id":{"name":"sprRightStanding","path":"sprites/sprRightStanding/sprRightStanding.yy",},},
     {"id":{"name":"sprRightWalking","path":"sprites/sprRightWalking/sprRightWalking.yy",},},
+    {"id":{"name":"sprSwordLeft","path":"sprites/sprSwordLeft/sprSwordLeft.yy",},},
+    {"id":{"name":"sprSwordRight","path":"sprites/sprSwordRight/sprSwordRight.yy",},},
     {"id":{"name":"sprTempBubble","path":"sprites/sprTempBubble/sprTempBubble.yy",},},
     {"id":{"name":"sprTempCat","path":"sprites/sprTempCat/sprTempCat.yy",},},
     {"id":{"name":"sprTempPlatform","path":"sprites/sprTempPlatform/sprTempPlatform.yy",},},
