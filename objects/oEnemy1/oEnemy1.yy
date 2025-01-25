@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprEnemy1",
+    "path":"sprites/sprEnemy1/sprEnemy1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
