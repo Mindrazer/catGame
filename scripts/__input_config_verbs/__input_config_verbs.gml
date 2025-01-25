@@ -42,6 +42,7 @@ function __input_config_verbs()
             cancel:  input_binding_gamepad_button(gp_face2),
             action:  input_binding_gamepad_button(gp_face3),
             special: input_binding_gamepad_button(gp_face4),
+			jump: input_binding_gamepad_button(gp_shoulderlb),
             
             aim_up:    input_binding_gamepad_axis(gp_axisrv, true),
             aim_down:  input_binding_gamepad_axis(gp_axisrv, false),

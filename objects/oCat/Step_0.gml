@@ -30,13 +30,13 @@ xspd = (input_check("right")) - (input_check("left"))  * moveSpd
 if (!bubble) {
 	// Non bubble vertical movement
 	yspd += grav
-	if (input_check("up") && grounded) {
+	if (input_check_pressed("jump") && grounded) {
 			yspd = jumpSpd
 	}
 } else {
 	// Bubble vertical movement
 	yspd += bubbleGrav
-	if (input_check_pressed("up")) {
+	if (input_check_pressed("jump")) {
 			yspd = bubbleJumpSpd
 			bubbleJumpCounter -= 1;
 	}

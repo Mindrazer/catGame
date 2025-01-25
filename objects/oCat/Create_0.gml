@@ -1,6 +1,6 @@
 sprFacingDir = 1
 standingSprites = [sprLeftStanding, sprRightStanding]
-walkingSprites = [sprLeftStanding, sprRightStanding]
+walkingSprites = [sprLeftWalking, sprRightWalking]
 jumpingSprites =  [sprLeftStanding, sprRightStanding]
 bubbleSprites = [sprTempBubble, sprTempBubble]
 hurtSprites = [sprHurt, sprHurt]
