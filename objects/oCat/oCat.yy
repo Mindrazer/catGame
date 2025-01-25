@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sprTempCat",
-    "path":"sprites/sprTempCat/sprTempCat.yy",
+    "name":"spr_cat",
+    "path":"sprites/spr_cat/spr_cat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
