@@ -12,18 +12,18 @@ grounded = place_meeting(x, y + 1, oPlatform); // Assumes you have an obj_ground
 
 // Horizontal movement
 
-xspd = (keyboard_check(vk_right) - keyboard_check(vk_left)) * moveSpd
+xspd = (input_check("right")) - (input_check("left"))  * moveSpd
 yspd += grav
 
-if (keyboard_check_pressed(vk_up) && grounded) {
+if (input_check("up") && grounded) {
 		yspd = jumpSpd
 }
 
 
 // Flip Sprite depending on which way it should face 
-if (keyboard_check(vk_left)) {
+if (input_check("left")) {
 	sprFacingDir = 0
-} else if keyboard_check(vk_right) {
+} else if (input_check("right")) {
 	sprFacingDir = 1
 }
 

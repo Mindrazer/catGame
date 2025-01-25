@@ -12,6 +12,8 @@ bubbleJumpCounter = 3;
 xspd = 0;
 yspd = 0;
 
-moveSpd = 2;
-jumpSpd = -5
+moveSpd = 1;
+jumpSpd = -4
 grav = .25
+
+//hold for higher jump??
