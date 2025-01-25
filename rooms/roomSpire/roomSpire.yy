@@ -39,6 +39,7 @@
     {"name":"inst_7A5D7F8F","path":"rooms/roomSpire/roomSpire.yy",},
     {"name":"inst_798CE4D6","path":"rooms/roomSpire/roomSpire.yy",},
     {"name":"inst_2AFA02ED","path":"rooms/roomSpire/roomSpire.yy",},
+    {"name":"inst_270D6977","path":"rooms/roomSpire/roomSpire.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -78,6 +79,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_movinglight","path":"objects/obj_movinglight/obj_movinglight.yy",},"propertyId":{"name":"str","path":"objects/obj_movinglight/obj_movinglight.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_movinglight","path":"objects/obj_movinglight/obj_movinglight.yy",},"propertyId":{"name":"size","path":"objects/obj_movinglight/obj_movinglight.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":1096.0,},
+        {"$GMRInstance":"v1","%Name":"inst_270D6977","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_270D6977","objectId":{"name":"oHurt","path":"objects/oHurt/oHurt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":1064.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"lightsetup","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_798CE4D6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_798CE4D6","objectId":{"name":"obj_lighting_setup","path":"objects/obj_lighting_setup/obj_lighting_setup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":1152.0,},
