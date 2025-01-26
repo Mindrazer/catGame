@@ -9,7 +9,7 @@ if (lifeCounter <= 0) {
 
 	camera_x = x - halfViewWidth
 	camera_y = y - halfViewHeight
-	
+	layer_destroy("Assets_2")
 	instance_create_layer(camera_x, camera_y, "instances", oEndGame)
 	
 }
