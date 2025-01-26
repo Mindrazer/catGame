@@ -20,6 +20,7 @@
     {"name":"inst_337328D2","path":"rooms/Roomhome/Roomhome.yy",},
     {"name":"inst_58130107","path":"rooms/Roomhome/Roomhome.yy",},
     {"name":"inst_757027A8","path":"rooms/Roomhome/Roomhome.yy",},
+    {"name":"inst_52A87F43","path":"rooms/Roomhome/Roomhome.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -45,6 +46,7 @@
         {"$GMRInstance":"v1","%Name":"inst_757027A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_757027A8","objectId":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},"propertyId":{"name":"obj_blank","path":"objects/obj_interact/obj_interact.yy",},"resource":{"name":"obj_computer","path":"objects/obj_computer/obj_computer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_computer",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":239.0,"y":163.0,},
+        {"$GMRInstance":"v1","%Name":"inst_52A87F43","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_52A87F43","objectId":{"name":"obj_gamestart","path":"objects/obj_gamestart/obj_gamestart.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":411.0,"y":157.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2E63498A","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2E63498A","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_home","path":"sprites/spr_home/spr_home.yy",},"x":0.0,"y":82.5,},

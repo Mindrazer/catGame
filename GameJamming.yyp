@@ -87,6 +87,7 @@
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"obj_bills","path":"objects/obj_bills/obj_bills.yy",},},
     {"id":{"name":"obj_computer","path":"objects/obj_computer/obj_computer.yy",},},
+    {"id":{"name":"obj_gamestart","path":"objects/obj_gamestart/obj_gamestart.yy",},},
     {"id":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},},
     {"id":{"name":"obj_light_wall","path":"objects/obj_light_wall/obj_light_wall.yy",},},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},},

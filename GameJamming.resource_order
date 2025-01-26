@@ -25,6 +25,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_arrow","order":12,"path":"objects/obj_arrow/obj_arrow.yy",},
     {"name":"obj_computer","order":2,"path":"objects/obj_computer/obj_computer.yy",},
+    {"name":"obj_gamestart","order":13,"path":"objects/obj_gamestart/obj_gamestart.yy",},
     {"name":"obj_interact","order":10,"path":"objects/obj_interact/obj_interact.yy",},
     {"name":"obj_light_wall","order":3,"path":"objects/obj_light_wall/obj_light_wall.yy",},
     {"name":"obj_lighting_setup","order":2,"path":"objects/obj_lighting_setup/obj_lighting_setup.yy",},
