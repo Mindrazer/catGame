@@ -25,6 +25,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_arrow","order":12,"path":"objects/obj_arrow/obj_arrow.yy",},
     {"name":"obj_computer","order":2,"path":"objects/obj_computer/obj_computer.yy",},
+    {"name":"obj_fade","order":19,"path":"objects/obj_fade/obj_fade.yy",},
     {"name":"obj_gamestart","order":13,"path":"objects/obj_gamestart/obj_gamestart.yy",},
     {"name":"obj_interact","order":10,"path":"objects/obj_interact/obj_interact.yy",},
     {"name":"obj_light_wall","order":3,"path":"objects/obj_light_wall/obj_light_wall.yy",},
@@ -33,6 +34,7 @@
     {"name":"obj_movinglight","order":1,"path":"objects/obj_movinglight/obj_movinglight.yy",},
     {"name":"obj_movingplatform","order":9,"path":"objects/obj_movingplatform/obj_movingplatform.yy",},
     {"name":"obj_opening","order":17,"path":"objects/obj_opening/obj_opening.yy",},
+    {"name":"obj_startscreen","order":18,"path":"objects/obj_startscreen/obj_startscreen.yy",},
     {"name":"obj_tri_light_wall_1","order":4,"path":"objects/obj_tri_light_wall_1/obj_tri_light_wall_1.yy",},
     {"name":"obj_tri_light_wall_2","order":5,"path":"objects/obj_tri_light_wall_2/obj_tri_light_wall_2.yy",},
     {"name":"objHealthBar","order":8,"path":"objects/objHealthBar/objHealthBar.yy",},
@@ -123,6 +125,7 @@
     {"name":"sprHurtRight","order":29,"path":"sprites/sprHurtRight/sprHurtRight.yy",},
     {"name":"sprImmortal","order":37,"path":"sprites/sprImmortal/sprImmortal.yy",},
     {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"Sprite80","order":38,"path":"sprites/Sprite80/Sprite80.yy",},
     {"name":"sprLeftDying","order":18,"path":"sprites/sprLeftDying/sprLeftDying.yy",},
     {"name":"sprLeftJumping","order":16,"path":"sprites/sprLeftJumping/sprLeftJumping.yy",},
     {"name":"sprLeftStanding","order":6,"path":"sprites/sprLeftStanding/sprLeftStanding.yy",},

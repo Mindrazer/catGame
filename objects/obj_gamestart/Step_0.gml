@@ -31,7 +31,7 @@ if place_meeting(x, y, oCat) {
     }
 }
 	
-if counter = 4 {
+if counter >= 4 {
     instance_create_layer(camera_x, camera_y, "Popups", obj_opening);
 	audio_play_sound(snd_death, 1, false);
     if (obj_opening.image_index >= obj_opening.image_number - 1) {
