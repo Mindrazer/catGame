@@ -15,6 +15,7 @@ grounded = place_meeting(x, y + 1, oPlatform); // Assumes you have an obj_ground
 // Are we bubbling?
 if (input_check_pressed("accept") && !grounded && !bubble && vulnCoolDown <= 0 && hasBubblePower) {
 	bubble = true
+	oHead.image_index = 0
 	bubbleJumpCounter = 3;
 } else if (grounded) {
 	bubble = false

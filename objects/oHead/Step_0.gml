@@ -45,6 +45,7 @@ if (!oCat.bubble) {
 		attackCoolDown = 180
 		following = false
 		followingCoolDown = 45
+		image_index = 0
 	}
 	
 	// Use default sprites and follow cat

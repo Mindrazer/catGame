@@ -16,13 +16,15 @@ if (x > cameraX && x < cameraX + camera_width) {
 
 
 // If the cat is within range, follow the cat
+xspd = 0
+yspd = 0
 if (inFrame){    //prevents enemy from running across the map to get you
-      if (collision_line(x,y,oCat.x,oCat.y,oPlatform,true,true) = noone) {
+      if (collision_line(x,y,oCat.x,oCat.y,oPlatform,true,true) = noone || collision_line(x,y,oCat.x,oCat.y - 8,oPlatform,true,true) = noone) {
            pointDir=point_direction(x,y,oCat.x,oCat.y);
 		   xDir = lengthdir_x(1, pointDir)
 		   yDir = lengthdir_y(1, pointDir)
-		   targetX = x + (xDir * enemySpeed)
-		   targetY = y + (yDir * enemySpeed)
+		   xspd = (xDir * enemySpeed)
+		   yspd = (yDir * enemySpeed)
 		   
 		   if (xDir < 0) {
 				sprite_index = sprBank[0]
@@ -30,7 +32,7 @@ if (inFrame){    //prevents enemy from running across the map to get you
 				sprite_index = sprBank[1]
 		   }
 		   
-		if place_meeting(targetX, y, oPlatform) {
+		if place_meeting(x + xspd, y, oPlatform) {
 	
 			var _pixelCheck = sign(xDir);
 			while !place_meeting( x+_pixelCheck, y, oPlatform) {
@@ -38,15 +40,13 @@ if (inFrame){    //prevents enemy from running across the map to get you
 				x += _pixelCheck
 	
 			}
-
-		} else {
-			x = targetX
-		}
+			xspd = 0
+		} 
 
 
 		// handle vertical movement
 		// handle vertical collision
-		if place_meeting(x, y+yspd, oPlatform) {
+		if place_meeting(x+xspd, y+yspd, oPlatform) {
 	
 			var _pixelCheck = sign(yspd);
 			while !place_meeting( x, y+_pixelCheck, oPlatform) {
@@ -54,12 +54,13 @@ if (inFrame){    //prevents enemy from running across the map to get you
 				y += _pixelCheck
 	
 			}
-		} else {
-			y = targetY
-		}
+			yspd = 0
+		} 
 		   
     }	
 }
+x += xspd
+y += yspd
 
 
 
