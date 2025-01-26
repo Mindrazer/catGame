@@ -50,6 +50,7 @@
     {"name":"shrub","order":30,"path":"sprites/shrub/shrub.yy",},
     {"name":"SomeTypaChairIDK","order":11,"path":"sprites/SomeTypaChairIDK/SomeTypaChairIDK.yy",},
     {"name":"spr_background","order":10,"path":"sprites/spr_background/spr_background.yy",},
+    {"name":"spr_healthbar","order":35,"path":"sprites/spr_healthbar/spr_healthbar.yy",},
     {"name":"spr_light_wall","order":11,"path":"sprites/spr_light_wall/spr_light_wall.yy",},
     {"name":"spr_light","order":9,"path":"sprites/spr_light/spr_light.yy",},
     {"name":"spr_tileset","order":7,"path":"sprites/spr_tileset/spr_tileset.yy",},
