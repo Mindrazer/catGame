@@ -10,7 +10,7 @@ jumpingSprites =  [sprLeftJumping, sprRightJumping]
 bubbleSprites = [sprBubbleLeft, sprBubbleRight]
 hurtSprites = [sprHurtLeft, sprHurtRight]
 sprBank = standingSprites // Start out standing
-lifeCounter = 1
+lifeCounter = 9
 vulnCoolDown = 0;
 hasBubblePower = true;
 
