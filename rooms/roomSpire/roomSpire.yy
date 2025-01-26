@@ -201,6 +201,7 @@
     {"name":"inst_335D99AB","path":"rooms/roomSpire/roomSpire.yy",},
     {"name":"inst_1FFE2000","path":"rooms/roomSpire/roomSpire.yy",},
     {"name":"inst_30FCC6CC","path":"rooms/roomSpire/roomSpire.yy",},
+    {"name":"inst_2505A2A0","path":"rooms/roomSpire/roomSpire.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -425,7 +426,8 @@
         {"$GMRInstance":"v1","%Name":"inst_335D99AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_335D99AB","objectId":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":600.0,"y":608.0,},
         {"$GMRInstance":"v1","%Name":"inst_1FFE2000","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FFE2000","objectId":{"name":"objWinGate","path":"objects/objWinGate/objWinGate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40000004,"scaleY":0.7,"x":300.0,"y":443.0,},
         {"$GMRInstance":"v1","%Name":"inst_30FCC6CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30FCC6CC","objectId":{"name":"oCat","path":"objects/oCat/oCat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":165.6,"y":2324.0,},
-      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+        {"$GMRInstance":"v1","%Name":"inst_2505A2A0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2505A2A0","objectId":{"name":"oChildDemon","path":"objects/oChildDemon/oChildDemon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":286.0,"y":2192.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"decoration","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_26AAF252","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_26AAF252","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Altar","path":"sprites/Altar/Altar.yy",},"x":512.0,"y":2104.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_4650A43C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4650A43C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Pillar1","path":"sprites/Pillar1/Pillar1.yy",},"x":304.0,"y":2040.0,},

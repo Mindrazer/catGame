@@ -1,4 +1,4 @@
-spd = 1
+spd = 1.5
 lerpSpd = 0.15
 defaultSprites = [sprHeadLeft,sprHeadRight]
 sprBank = defaultSprites

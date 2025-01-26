@@ -6,7 +6,7 @@ cameraY = camera_get_view_y(view_camera[0])
 inFrame=false
 if (x > cameraX && x < cameraX + camera_width) {
 
-	if (y > cameraY && x < cameraY + camera_height) {
+	if (y + sprite_height > cameraY && y < cameraY + camera_height) {
 
 		inFrame = true
 
@@ -18,6 +18,7 @@ if (x > cameraX && x < cameraX + camera_width) {
 // If the cat is within range, follow the cat
 xspd = 0
 yspd = 0
+sprIndex = 1
 if (inFrame){    //prevents enemy from running across the map to get you
       if (collision_line(x,y,oCat.x,oCat.y,oPlatform,true,true) = noone || collision_line(x,y,oCat.x,oCat.y - 8,oPlatform,true,true) = noone) {
            pointDir=point_direction(x,y,oCat.x,oCat.y);
@@ -35,9 +36,9 @@ if (inFrame){    //prevents enemy from running across the map to get you
 		   }
 		   
 		   if (xDir < 0) {
-				sprite_index = sprBank[0]
+				sprIndex = 0
 		   } else {
-				sprite_index = sprBank[1]
+				sprIndex = 1
 		   }
 		   
 		if place_meeting(x + xspd, y, oPlatform) {
@@ -67,8 +68,20 @@ if (inFrame){    //prevents enemy from running across the map to get you
 		   
     }	
 }
-x += xspd
-y += yspd
+
+
+if (!dying) {
+	x += xspd
+	y += yspd
+	sprite_index = sprBank[sprIndex]
+} else {
+	
+	if (image_index >= sprite_get_number(sprite_index)-1) {
+		instance_destroy()
+	}
+	
+	sprite_index = deathBank[sprIndex]
+}
 
 
 

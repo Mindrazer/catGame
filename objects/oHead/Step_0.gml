@@ -17,6 +17,14 @@ if (!oCat.bubble) {
 		following = false
 		followingCoolDown = 45
 		
+		//Speed fix because gameamker was made by a 3rd grader
+		if (xspd > 0) {
+			xspd = xspd * spd
+		}
+		if (yspd > 0) {
+			yspd = yspd * spd
+		}
+		
 		// user is controlling the head	
 		x += xspd
 		y += yspd
