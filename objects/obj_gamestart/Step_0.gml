@@ -10,7 +10,7 @@ camera_x = x - halfViewWidth
 camera_y = y - halfViewHeight + 11
 
 // In the Step event of the SPECIFIC OBJECT (not a parent object)
-if place_meeting(x, y, oCat) {
+if place_meeting(x, y, oCat) && !ending {
     // Check if no arrow already exists for THIS specific object
     var my_arrow = instance_place(x, y - 16, obj_arrow);
     
@@ -32,9 +32,14 @@ if place_meeting(x, y, oCat) {
 }
 	
 if counter >= 4 {
-    instance_create_layer(camera_x, camera_y, "Popups", obj_opening);
 	audio_play_sound(snd_death, 1, false);
+	
+	if !ending {
+		instance_create_layer(camera_x, camera_y, "Popups", obj_opening);
+	}
     if (obj_opening.image_index >= obj_opening.image_number - 1) {
         room_goto(roomSpire);
     }
+	
+	ending = true
 }
