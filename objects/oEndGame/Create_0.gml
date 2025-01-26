@@ -1,3 +1,6 @@
+audio_stop_all();
+audio_play_sound(snd_death, 1, false)
+
 camera_set_view_pos(view_camera[0], x, y)
 
 
