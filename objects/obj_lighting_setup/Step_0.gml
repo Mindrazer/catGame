@@ -15,9 +15,17 @@ function quad(_vb,_x1,_y1,_x2,_y2){
 	vertex_position_3d(_vb,_x2,_y2,0);
 	vertex_position_3d(_vb,_x2,_y2,1); //repositioned vertex
 }
+camera_width = camera_get_view_width(view_camera[0])
+camera_height = camera_get_view_height(view_camera[0])
 
-vx = camera_get_view_x(view_camera[0])
-vy = camera_get_view_y(view_camera[0])
+
+halfViewWidth = camera_width / 2 
+halfViewHeight = camera_height / 2
+
+
+vx = oCat.x - halfViewWidth
+vy = oCat.y - halfViewHeight
+
 
 //vx = (input_check("right")) - (input_check("left"))
 //vy = (input_check("up")) - (input_check("down"))

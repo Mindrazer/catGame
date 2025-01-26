@@ -41,5 +41,13 @@ shad_surf = noone;
 //turn on Debug
 //show_debug_overlay(1);
 
-vx = camera_get_view_x(view_camera[0])
-vy = camera_get_view_y(view_camera[0])
+camera_width = camera_get_view_width(view_camera[0])
+camera_height = camera_get_view_height(view_camera[0])
+
+
+halfViewWidth = camera_width / 2 
+halfViewHeight = camera_height / 2
+
+
+vx = oCat.x - halfViewWidth
+vy = oCat.y - halfViewHeight

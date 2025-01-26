@@ -94,6 +94,7 @@
     {"id":{"name":"oHead","path":"objects/oHead/oHead.yy",},},
     {"id":{"name":"oHurt","path":"objects/oHurt/oHurt.yy",},},
     {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
+    {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"roomlighttest","path":"rooms/roomlighttest/roomlighttest.yy",},},
     {"id":{"name":"roomProtoTypr","path":"rooms/roomProtoTypr/roomProtoTypr.yy",},},
