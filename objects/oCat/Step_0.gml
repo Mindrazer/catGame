@@ -23,7 +23,9 @@ if (input_check_pressed("accept") && !grounded && !bubble && vulnCoolDown <= 0 &
 }
 
 // Horizontal movement
-xspd = (input_check("right")) - (input_check("left"))  * moveSpd
+if (vulnCoolDown < 170) {
+	xspd = (input_check("right")) - (input_check("left"))  * moveSpd
+}
 
 
 // Vertical Movement

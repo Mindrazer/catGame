@@ -8,6 +8,13 @@ if (vulnCoolDown <= 0) {
 	vulnCoolDown = 180
 	// Pop the players bubble
 	bubble = false;
+	
+	hurtDir = point_direction(other.x, other.y, x, y)
+	
+	xMult = lengthdir_x(1, hurtDir)
+	yMult = lengthdir_y(1, hurtDir)
+	
+	xspd = xMult*jumpSpd*-1/2
+	yspd = -4
 }
-
 
