@@ -13,6 +13,7 @@ sprBank = standingSprites // Start out standing
 lifeCounter = 9
 vulnCoolDown = 0;
 hasBubblePower = true;
+bubbleCoolDown = 0;
 
 bubble = false
 bubbleJumpCounter = 3;
@@ -28,11 +29,11 @@ grav = .25
 bubbleGrav = 0.15;
 
 // Create head
-if !room = Roomhome {
-instance_create_layer(x, y, "instances", oHead)
+if room == roomSpire {
+	instance_create_layer(x, y, "instances", oHead)
 }
 // Creat health bar
-if !room = Roomhome {
+if room == roomSpire {
 instance_create_layer(x-120, y-60, "instances", objHealthBar)
 }
 //hold for higher jump??

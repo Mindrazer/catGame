@@ -7,16 +7,24 @@ if (vulnCoolDown > 0) {
 	vulnCoolDown -= 1
 }
 
+if (bubbleCoolDown > 0) {
+	bubbleCoolDown -= 1;
+	hasBubblePower = false;
+} else {
+	hasBubblePower = true;
+}
+
 
 // Check if the player is on the ground (or close enough)
 grounded = place_meeting(x, y + 1, oPlatform); // Assumes you have an obj_ground or platform object
 
 
 // Are we bubbling?
-if (input_check_pressed("accept") && !grounded && !bubble && vulnCoolDown <= 0 && hasBubblePower && !room = Roomhome) {
+if (input_check_pressed("accept") && !grounded && !bubble && vulnCoolDown <= 0 && hasBubblePower && room == roomSpire) {
 	bubble = true
 	oHead.image_index = 0
 	bubbleJumpCounter = 3;
+	bubbleCoolDown = 180;
 	audio_play_sound(snd_ShadowBubble, 1, false);
 } else if (grounded) {
 	bubble = false

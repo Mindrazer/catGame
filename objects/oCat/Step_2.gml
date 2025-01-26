@@ -32,7 +32,7 @@ if (camera_x + camera_width > room_width) {
 camera_set_view_pos(view_camera[0], camera_x, camera_y)
 
 // Health bar NEEDS to be here
-if !room = Roomhome {
+if room == roomSpire {
 objHealthBar.x = camera_x
 objHealthBar.y = camera_y + 5
 objHealthBar.image_index = 9 - lifeCounter
