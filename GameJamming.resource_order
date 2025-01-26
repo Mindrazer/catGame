@@ -24,6 +24,7 @@
     {"name":"obj_movinglight","order":1,"path":"objects/obj_movinglight/obj_movinglight.yy",},
     {"name":"obj_tri_light_wall_1","order":4,"path":"objects/obj_tri_light_wall_1/obj_tri_light_wall_1.yy",},
     {"name":"obj_tri_light_wall_2","order":5,"path":"objects/obj_tri_light_wall_2/obj_tri_light_wall_2.yy",},
+    {"name":"objHealthBar","order":8,"path":"objects/objHealthBar/objHealthBar.yy",},
     {"name":"oCat","order":1,"path":"objects/oCat/oCat.yy",},
     {"name":"oEnemy1","order":6,"path":"objects/oEnemy1/oEnemy1.yy",},
     {"name":"oEnemyFloat","order":7,"path":"objects/oEnemyFloat/oEnemyFloat.yy",},

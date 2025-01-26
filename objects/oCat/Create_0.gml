@@ -1,3 +1,8 @@
+// Draw Health Bar
+xPos = camera_get_view_x(view_camera[0])
+yPos = camera_get_view_x(view_camera[0])
+
+
 sprFacingDir = 1
 standingSprites = [sprLeftStanding, sprRightStanding]
 walkingSprites = [sprLeftWalking, sprRightWalking]
@@ -24,5 +29,8 @@ bubbleGrav = 0.15;
 
 // Create head
 instance_create_layer(x, y, "instances", oHead)
+
+// Creat health bar
+instance_create_layer(x-120, y-60, "instances", objHealthBar)
 
 //hold for higher jump??
