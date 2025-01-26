@@ -16,7 +16,8 @@ if (x > cameraX && x < cameraX + camera_width) {
 
 
 // If the cat is within range, follow the cat
-
+targetX = 10000;
+xDir = 1;
 if (inFrame){    //prevents enemy from running across the map to get you
       if (collision_line(x,y,oCat.x,oCat.y,oPlatform,true,true) = noone) {
            pointDir=point_direction(x,y,oCat.x,oCat.y);
@@ -42,7 +43,6 @@ if (inFrame){    //prevents enemy from running across the map to get you
 				   }
 			   }
 		   }
-		   x = targetX
 		   if (xDir < 0) {
 				sprite_index = sprBank[0]
 		   } else {
@@ -51,6 +51,23 @@ if (inFrame){    //prevents enemy from running across the map to get you
 		   
     }	
 }
+
+
+
+if (targetX != 10000) {
+	if place_meeting(targetX, y, oPlatform) {
+	
+		var _pixelCheck = sign(xDir);
+		while !place_meeting( x+_pixelCheck, y, oPlatform) {
+	
+			x += _pixelCheck
+	
+		}
+
+	}	else {
+		x = targetX
+	}
+} 
 
 // handle vertical movement
 // handle vertical collision
