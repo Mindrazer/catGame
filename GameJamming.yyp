@@ -100,6 +100,7 @@
     {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
     {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Roomhome","path":"rooms/Roomhome/Roomhome.yy",},},
     {"id":{"name":"roomlighttest","path":"rooms/roomlighttest/roomlighttest.yy",},},
     {"id":{"name":"roomProtoTypr","path":"rooms/roomProtoTypr/roomProtoTypr.yy",},},
     {"id":{"name":"roomSpire","path":"rooms/roomSpire/roomSpire.yy",},},
@@ -478,6 +479,7 @@
     {"id":{"name":"spr_catsitting","path":"sprites/spr_catsitting/spr_catsitting.yy",},},
     {"id":{"name":"spr_gameoverscreen","path":"sprites/spr_gameoverscreen/spr_gameoverscreen.yy",},},
     {"id":{"name":"spr_healthbar","path":"sprites/spr_healthbar/spr_healthbar.yy",},},
+    {"id":{"name":"spr_home","path":"sprites/spr_home/spr_home.yy",},},
     {"id":{"name":"spr_light_wall","path":"sprites/spr_light_wall/spr_light_wall.yy",},},
     {"id":{"name":"spr_light","path":"sprites/spr_light/spr_light.yy",},},
     {"id":{"name":"spr_minideathleft","path":"sprites/spr_minideathleft/spr_minideathleft.yy",},},
@@ -528,6 +530,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Roomhome","path":"rooms/Roomhome/Roomhome.yy",},},
     {"roomId":{"name":"roomSpire","path":"rooms/roomSpire/roomSpire.yy",},},
     {"roomId":{"name":"roomlighttest","path":"rooms/roomlighttest/roomlighttest.yy",},},
     {"roomId":{"name":"roomProtoTypr","path":"rooms/roomProtoTypr/roomProtoTypr.yy",},},

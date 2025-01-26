@@ -28,9 +28,11 @@ grav = .25
 bubbleGrav = 0.15;
 
 // Create head
+if !room = Roomhome {
 instance_create_layer(x, y, "instances", oHead)
-
+}
 // Creat health bar
+if !room = Roomhome {
 instance_create_layer(x-120, y-60, "instances", objHealthBar)
-
+}
 //hold for higher jump??
