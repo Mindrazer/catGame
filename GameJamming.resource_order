@@ -32,6 +32,7 @@
     {"name":"obj_mom","order":1,"path":"objects/obj_mom/obj_mom.yy",},
     {"name":"obj_movinglight","order":1,"path":"objects/obj_movinglight/obj_movinglight.yy",},
     {"name":"obj_movingplatform","order":9,"path":"objects/obj_movingplatform/obj_movingplatform.yy",},
+    {"name":"obj_opening","order":17,"path":"objects/obj_opening/obj_opening.yy",},
     {"name":"obj_tri_light_wall_1","order":4,"path":"objects/obj_tri_light_wall_1/obj_tri_light_wall_1.yy",},
     {"name":"obj_tri_light_wall_2","order":5,"path":"objects/obj_tri_light_wall_2/obj_tri_light_wall_2.yy",},
     {"name":"objHealthBar","order":8,"path":"objects/objHealthBar/objHealthBar.yy",},

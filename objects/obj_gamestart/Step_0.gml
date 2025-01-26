@@ -1,3 +1,14 @@
+camera_width = camera_get_view_width(view_camera[0])
+camera_height = camera_get_view_height(view_camera[0])
+
+
+halfViewWidth = camera_width / 2 
+halfViewHeight = camera_height / 2
+
+
+camera_x = x - halfViewWidth
+camera_y = y - halfViewHeight + 11
+
 // In the Step event of the SPECIFIC OBJECT (not a parent object)
 if place_meeting(x, y, oCat) {
     // Check if no arrow already exists for THIS specific object
@@ -20,6 +31,10 @@ if place_meeting(x, y, oCat) {
     }
 }
 	
-	if counter = 4 {
-		room_goto(roomSpire)
-	}
+if counter = 4 {
+    instance_create_layer(camera_x, camera_y, "Popups", obj_opening);
+	audio_play_sound(snd_death, 1, false);
+    if (obj_opening.image_index >= obj_opening.image_number - 1) {
+        room_goto(roomSpire);
+    }
+}

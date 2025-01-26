@@ -95,6 +95,7 @@
     {"id":{"name":"obj_mom","path":"objects/obj_mom/obj_mom.yy",},},
     {"id":{"name":"obj_movinglight","path":"objects/obj_movinglight/obj_movinglight.yy",},},
     {"id":{"name":"obj_movingplatform","path":"objects/obj_movingplatform/obj_movingplatform.yy",},},
+    {"id":{"name":"obj_opening","path":"objects/obj_opening/obj_opening.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_tri_light_wall_1","path":"objects/obj_tri_light_wall_1/obj_tri_light_wall_1.yy",},},
     {"id":{"name":"obj_tri_light_wall_2","path":"objects/obj_tri_light_wall_2/obj_tri_light_wall_2.yy",},},
