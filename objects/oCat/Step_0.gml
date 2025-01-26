@@ -7,17 +7,17 @@ if (vulnCoolDown > 0) {
 	vulnCoolDown -= 1
 }
 
+
+// Check if the player is on the ground (or close enough)
+grounded = place_meeting(x, y + 1, oPlatform); // Assumes you have an obj_ground or platform object
+if grounded {bubbleCoolDown = 0}
+
 if (bubbleCoolDown > 0) {
 	bubbleCoolDown -= 1;
 	hasBubblePower = false;
 } else {
 	hasBubblePower = true;
 }
-
-
-// Check if the player is on the ground (or close enough)
-grounded = place_meeting(x, y + 1, oPlatform); // Assumes you have an obj_ground or platform object
-
 
 // Are we bubbling?
 if (input_check_pressed("accept") && !grounded && !bubble && vulnCoolDown <= 0 && hasBubblePower && room == roomSpire) {
