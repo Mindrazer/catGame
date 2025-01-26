@@ -498,6 +498,7 @@
     {"id":{"name":"spr_mom","path":"sprites/spr_mom/spr_mom.yy",},},
     {"id":{"name":"spr_movingplatform","path":"sprites/spr_movingplatform/spr_movingplatform.yy",},},
     {"id":{"name":"spr_nojob","path":"sprites/spr_nojob/spr_nojob.yy",},},
+    {"id":{"name":"spr_opening","path":"sprites/spr_opening/spr_opening.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_spikedemon","path":"sprites/spr_spikedemon/spr_spikedemon.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},

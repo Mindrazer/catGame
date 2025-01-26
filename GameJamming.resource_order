@@ -94,6 +94,7 @@
     {"name":"spr_mom","order":2,"path":"sprites/spr_mom/spr_mom.yy",},
     {"name":"spr_movingplatform","order":31,"path":"sprites/spr_movingplatform/spr_movingplatform.yy",},
     {"name":"spr_nojob","order":3,"path":"sprites/spr_nojob/spr_nojob.yy",},
+    {"name":"spr_opening","order":5,"path":"sprites/spr_opening/spr_opening.yy",},
     {"name":"spr_spikedemon","order":2,"path":"sprites/spr_spikedemon/spr_spikedemon.yy",},
     {"name":"spr_tileset","order":7,"path":"sprites/spr_tileset/spr_tileset.yy",},
     {"name":"spr_tri_light_wall_1","order":12,"path":"sprites/spr_tri_light_wall_1/spr_tri_light_wall_1.yy",},
