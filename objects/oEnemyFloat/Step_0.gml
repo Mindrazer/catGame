@@ -25,6 +25,7 @@ if (inFrame){    //prevents enemy from running across the map to get you
 		   yDir = lengthdir_y(1, pointDir)
 		   xspd = (xDir * enemySpeed)
 		   yspd = (yDir * enemySpeed)
+		   audio_play_sound(snd_DemonStartChase, 1, false);
 		   
 		   if (xDir < 0) {
 				sprite_index = sprBank[0]

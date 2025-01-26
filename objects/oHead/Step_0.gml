@@ -41,6 +41,7 @@ if (!oCat.bubble) {
 	
 	if (input_check_pressed("shoot") && !attacking && !oCat.bubble && attackCoolDown == 0) {
 		// start attack animation
+		 audio_play_sound(snd_ShadowSwordSwing, 1, false);
 		attacking=true
 		attackCoolDown = 180
 		following = false

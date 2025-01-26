@@ -2,6 +2,7 @@
 // If not already invulnerable. Else we do nothing
 
 if (vulnCoolDown <= 0) {
+	audio_play_sound(snd_CatTakeDamage1, 1, false);
 	// Lose a life
 	lifeCounter -= 1
 	// Set vuln cooldown

@@ -17,6 +17,7 @@ if (input_check_pressed("accept") && !grounded && !bubble && vulnCoolDown <= 0 &
 	bubble = true
 	oHead.image_index = 0
 	bubbleJumpCounter = 3;
+	audio_play_sound(snd_ShadowBubble, 1, false);
 } else if (grounded) {
 	bubble = false
 } else if (bubbleJumpCounter <= 0) {
@@ -28,6 +29,12 @@ if (vulnCoolDown < 170) {
 	xspd = (input_check("right")) - (input_check("left"))  * moveSpd
 }
 
+//horizontal movement sound
+if (grounded && (input_check("right") || input_check("left"))) {
+    if (!audio_is_playing(snd_catwalk)) {
+        audio_play_sound(snd_catwalk, 1, false);
+    }
+}
 
 // Vertical Movement
 if (!bubble) {
@@ -35,6 +42,7 @@ if (!bubble) {
 	yspd += grav
 	if (input_check_pressed("jump") && grounded) {
 			yspd = jumpSpd
+			audio_play_sound(snd_catjump, 1, false);
 	}
 } else {
 	// Bubble vertical movement
@@ -42,6 +50,7 @@ if (!bubble) {
 	if (input_check_pressed("jump")) {
 			yspd = bubbleJumpSpd
 			bubbleJumpCounter -= 1;
+			audio_play_sound(snd_ShadowBubble, 1, false);
 	}
 }
 
@@ -93,7 +102,7 @@ if (vulnCoolDown > 0) {
 	// Not on the ground, using jumping sprite bank
 	sprBank = jumpingSprites
 } else if (x != xprevious) {
-	// Whow knew gamemaker just kept track of xprevious
+	// Whow knew gamemaker just kept track of xprevious //lol
 	sprBank = walkingSprites
 } else {
 
