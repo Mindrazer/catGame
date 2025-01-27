@@ -19,6 +19,11 @@ function __input_config_verbs()
             down:  [input_binding_key(vk_down),  input_binding_key("S")],
             left:  [input_binding_key(vk_left),  input_binding_key("A")],
             right: [input_binding_key(vk_right), input_binding_key("D")],
+			
+			aim_up:    input_binding_key("U"),
+            aim_down:  input_binding_key("J"),
+            aim_left:  input_binding_key("H"),
+            aim_right: input_binding_key("K"),
             
             accept:  input_binding_key(vk_space),
             cancel:  input_binding_key(vk_backspace),
@@ -26,7 +31,7 @@ function __input_config_verbs()
             special: input_binding_key(vk_shift),
             
             //No aiming verbs since we use the mouse for that (see below for aiming verb examples)
-            shoot: input_binding_mouse_button(mb_left),
+            shoot: input_binding_key(vk_shift),
             
             pause: input_binding_key(vk_escape),
         },

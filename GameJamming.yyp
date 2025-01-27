@@ -557,8 +557,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"roomSpire","path":"rooms/roomSpire/roomSpire.yy",},},
     {"roomId":{"name":"roomImmortal","path":"rooms/roomImmortal/roomImmortal.yy",},},
+    {"roomId":{"name":"roomSpire","path":"rooms/roomSpire/roomSpire.yy",},},
     {"roomId":{"name":"Roomhome","path":"rooms/Roomhome/Roomhome.yy",},},
     {"roomId":{"name":"roomlighttest","path":"rooms/roomlighttest/roomlighttest.yy",},},
     {"roomId":{"name":"roomProtoTypr","path":"rooms/roomProtoTypr/roomProtoTypr.yy",},},

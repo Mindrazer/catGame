@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.013208,
+  "duration":1.001,
   "name":"snd_catmeow2",
   "parent":{
     "name":"snd_fx",
